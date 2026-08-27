@@ -1,84 +1,45 @@
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,100:7C3AED&height=180&section=header&text=Arnav%20Pawar&fontSize=46&fontColor=F1F5F9&fontAlignY=38&animation=fadeIn&desc=Business%20Analyst%20%C3%97%20Full-Stack%20Builder&descAlignY=58&descSize=18&descColor=CBD5E1" width="100%"/>
+# Arnav Pawar
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&pause=1200&color=A78BFA&center=true&vCenter=true&width=700&height=50&lines=Turns+vague+business+problems+into+specs+engineers+can+build+from.;Then+builds+it+myself%2C+because+why+stop+at+the+spec.;CS+grad+who+speaks+both+stakeholder+and+Python.;Currently+shipping+an+AI+ticketing+platform%2C+live+in+fintech." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1400&color=A78BFA&vCenter=true&width=650&height=30&lines=I+write+specs%2C+then+I'm+usually+the+one+who+builds+from+them.;CS+grad%2C+University+of+East+Anglia.;Currently%3A+shipping+an+AI+ticketing+platform+I+speced%2C+live+at+a+fintech+client." alt="Typing SVG" />
 </a>
 
-</div>
+Most of what's below is stuff I built because I wanted to know if an idea actually worked: ranking EV chargers with real scheduling algorithms instead of just picking the nearest one, running object detection entirely inside a browser tab, mapping hazards for a township that had no way to report them. At Reg-X Innovations I also wrote the requirements and architecture spec for a fintech client's AI ticketing platform, then stayed on to build the thing I'd designed, which is usually the part handed off to someone else.
 
-I like the part of a project most people skip: sitting with someone who has a vague, half-formed problem and turning it into something concrete enough to build. At **Reg-X Innovations** I wrote the requirements and architecture spec for a fintech client's AI ticketing platform from scratch, then stuck around to help build the thing I'd just designed. Everything below is what happens when that same instinct gets pointed at side projects instead of client work.
-
-Currently finishing a **BSc Computer Science (2:1)** at UEA, alongside a **BCS Foundation Certificate in Business Analysis** and **AWS Certified Cloud Practitioner**. Still deciding whether I'd rather be the person writing the spec or the person shipping the code, and mostly by accident, doing both.
+BSc Computer Science (2:1), University of East Anglia. Still working out exactly what I want to specialise in, which is less indecision and more picking based on the work rather than the job title.
 
 <br/>
 
 ## Stack
 
-<div align="center">
-
 <img src="https://skillicons.dev/icons?i=py,fastapi,react,nextjs,ts,js,postgres,docker,aws,git,github,tailwind,html,css&theme=dark" />
 
-</div>
-
+<br/>
 <br/>
 
-## Projects worth clicking into
+## Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### [EV Charging Reservation System](https://github.com/Arnav274/EV-final-charging-reservation-system)
+`FastAPI` `PostgreSQL` `React` `Leaflet`
 
-<a href="https://github.com/Arnav274/EV-final-charging-reservation-system">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Arnav274&repo=EV-final-charging-reservation-system&theme=tokyonight&hide_border=true" />
-</a>
+Ranks London's EV chargers the way a driver actually decides, not just by distance: wait time, price, and remaining range factored in too. Benchmarked six scheduling approaches against each other, including Dijkstra's algorithm and an Erlang-C queueing model, to see which produced recommendations that actually held up rather than the one with the fanciest name. Live station data from OpenChargeMap, containerised across four services, tested with pytest.
 
-Ranks London EV charging stations the way a driver actually thinks about it: distance, wait time, price, remaining range. Six scheduling algorithms benchmarked against each other, including Dijkstra and an Erlang-C queue model, wrapped in FastAPI + PostgreSQL + React/Leaflet, pulling live station data from OpenChargeMap. Containerised across four services, with a pytest suite so the results don't quietly rot.
+### [webai-smart-retail](https://github.com/Arnav274/webai-smart-retail)
+`TensorFlow.js` `COCO-SSD`
 
-</td>
-<td width="50%" valign="top">
+Real-time object detection that runs entirely client-side, nothing sent to a server. Point a webcam at a shelf, or drop in a photo or video, and it tags what it sees in the browser. Went in-browser specifically to avoid the latency and privacy cost of streaming video to a backend for something that doesn't need one.
 
-<a href="https://github.com/Arnav274/webai-smart-retail">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Arnav274&repo=webai-smart-retail&theme=tokyonight&hide_border=true" />
-</a>
+### [job-application-tracker](https://github.com/Arnav274/job-application-tracker)
+`Next.js` `PostgreSQL` `TypeScript`
 
-Object detection that runs entirely in the browser, no server round-trip. Point a webcam, upload an image, or drop in a video, and TensorFlow.js + COCO-SSD tags what it sees in real time.
+Built after tracking my own job search in a spreadsheet for a few months and getting sick of it. Tracks every application's actual status instead of a half-remembered mental model of who I followed up with.
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+### [safevalley-map](https://github.com/Arnav274/safevalley-map)
+`React` `Leaflet` `Firebase`
 
-<a href="https://github.com/Arnav274/job-application-tracker">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Arnav274&repo=job-application-tracker&theme=tokyonight&hide_border=true" />
-</a>
-
-Built to replace the spreadsheet everyone job-hunting ends up with. Next.js + PostgreSQL, so every application has an actual status instead of a vague memory of whether you followed up.
-
-</td>
-<td width="50%" valign="top">
-
-<a href="https://github.com/Arnav274/safevalley-map">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Arnav274&repo=safevalley-map&theme=tokyonight&hide_border=true" />
-</a>
-
-A hazard-reporting map for Johannesburg's Makers Valley, built for the EWB Digital Design Challenge. React + Leaflet + Firebase, so residents can flag problems no council spreadsheet was ever going to catch.
-
-</td>
-</tr>
-</table>
+A hazard-reporting map for Johannesburg's Makers Valley, built for the Engineers Without Borders Digital Design Challenge. The brief was a community with no formal way to flag problems to the local council. This gave them one, on a map, usable without training.
 
 <br/>
-
-## GitHub, honestly
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Arnav274&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arnav274&layout=compact&theme=tokyonight&hide_border=true" height="165" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Arnav274&theme=tokyonight&hide_border=true" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Arnav274/Arnav274/output/github-contribution-grid-snake-dark.svg" />
@@ -86,23 +47,15 @@ A hazard-reporting map for Johannesburg's Makers Valley, built for the EWB Digit
   <img alt="a snake eating my contribution graph" src="https://raw.githubusercontent.com/Arnav274/Arnav274/output/github-contribution-grid-snake.svg" width="100%"/>
 </picture>
 
-</div>
-
 <br/>
 
 ## Right now
 
-- 🔭 Interning at **Reg-X Innovations**, helping build the AI ticketing platform I originally specced for a fintech client
-- 🧭 Leading UEA's **ML Society** and organising hackathons as **Lead Hackathon Organiser**
-- 🛠️ Freelancing on dashboards and internal tools for small businesses since 2023
-- 🏆 Led a 4-person team to 4th place out of 20+ at UEA Climate Hack, three hours ahead of deadline
-- 💬 Ask me about turning a client's "can you just fix this" into something an engineering team can actually build from
+Interning at Reg-X Innovations, building out the ticketing platform I originally specced. Outside of that I run UEA's ML Society, organise hackathons, and take on freelance dev work for small businesses when something interesting comes up. Also led a 4-person team to 4th out of 20+ at UEA Climate Hack, three hours ahead of the deadline, which is the most Scrum has ever paid off for me personally.
 
 <br/>
 
-## Let's talk
-
-<div align="center">
+## Contact
 
 <a href="mailto:arnavpawar.tech@gmail.com">
   <img src="https://img.shields.io/badge/Email-arnavpawar.tech%40gmail.com-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" />
@@ -110,11 +63,3 @@ A hazard-reporting map for Johannesburg's Makers Valley, built for the EWB Digit
 <a href="https://linkedin.com/in/arnavspawar">
   <img src="https://img.shields.io/badge/LinkedIn-arnavspawar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
-
-<br/><br/>
-
-<i>If you've read this far, I clearly spent longer on this README than on some job applications. Let's fix that — my inbox is right above.</i>
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,100:0F172A&height=100&section=footer" width="100%"/>
