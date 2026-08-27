@@ -24,7 +24,7 @@ BSc Computer Science (2:1), University of East Anglia. Still working out exactly
 
 Ranks London's EV chargers the way a driver actually decides, not just by distance: wait time, price, and remaining range factored in too. Benchmarked six scheduling approaches against each other, including Dijkstra's algorithm and an Erlang-C queueing model, to see which produced recommendations that actually held up rather than the one with the fanciest name. Live station data from OpenChargeMap, containerised across four services, tested with pytest.
 
-### [webai-smart-retail](https://github.com/Arnav274/webai-smart-retail)
+### [webai-smart-retail](https://github.com/Arnav274/webai-smart-retail) · [live demo](https://smartretailwebai.netlify.app/)
 `TensorFlow.js` `COCO-SSD`
 
 Real-time object detection that runs entirely client-side, nothing sent to a server. Point a webcam at a shelf, or drop in a photo or video, and it tags what it sees in the browser. Went in-browser specifically to avoid the latency and privacy cost of streaming video to a backend for something that doesn't need one.
