@@ -4,9 +4,9 @@
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1400&color=A78BFA&vCenter=true&width=650&height=30&lines=I+write+specs%2C+then+I'm+usually+the+one+who+builds+from+them.;CS+grad%2C+University+of+East+Anglia.;Currently%3A+shipping+an+AI+ticketing+platform+I+speced%2C+live+at+a+fintech+client." alt="Typing SVG" />
 </a>
 
-Most of what's below is stuff I built because I wanted to know if an idea actually worked: ranking EV chargers with real scheduling algorithms instead of just picking the nearest one, running object detection entirely inside a browser tab, mapping hazards for a township that had no way to report them. At Reg-X Innovations I also wrote the requirements and architecture spec for a fintech client's AI ticketing platform, then stayed on to build the thing I'd designed, which is usually the part handed off to someone else.
+What I actually like is being in the middle of a problem: sitting with someone who has a vague idea, turning it into something buildable, then making sure it gets built. At Reg-X Innovations that meant writing the requirements and architecture spec for a fintech client's AI ticketing platform, then staying on to help build it. Outside of that: an EV charging app that ranks stations using real scheduling algorithms, an object detector that runs entirely in the browser, a hazard-reporting map for a township that didn't have one.
 
-BSc Computer Science (2:1), University of East Anglia. Still working out exactly what I want to specialise in, which is less indecision and more picking based on the work rather than the job title.
+BSc Computer Science (2:1), University of East Anglia.
 
 <br/>
 
@@ -51,7 +51,7 @@ A hazard-reporting map for Johannesburg's Makers Valley, built for the Engineers
 
 ## Right now
 
-Interning at Reg-X Innovations, building out the ticketing platform I originally specced. Outside of that I run UEA's ML Society, organise hackathons, and take on freelance dev work for small businesses when something interesting comes up. Also led a 4-person team to 4th out of 20+ at UEA Climate Hack, three hours ahead of the deadline, which is the most Scrum has ever paid off for me personally.
+Outside the Reg-X internship, I run UEA's ML Society, organise hackathons, and take on freelance dev work for small businesses. I also led a 4-person team to 4th out of 20+ at UEA Climate Hack, three hours ahead of the deadline.
 
 <br/>
 
