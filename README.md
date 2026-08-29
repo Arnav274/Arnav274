@@ -51,7 +51,9 @@ A hazard-reporting map for Johannesburg's Makers Valley, built for the Engineers
 
 ## Right now
 
-Outside the Reg-X internship, I run UEA's ML Society, organise hackathons, and take on freelance dev work for small businesses. I also led a 4-person team to 4th out of 20+ at UEA Climate Hack, three hours ahead of the deadline.
+Led UEA's ML Society and organised hackathons through uni; did canoeing and mountaineering with the societies there too. Also led a 4-person team to 4th out of 20+ at UEA Climate Hack, three hours ahead of the deadline. Now freelancing dev work for small businesses alongside the Reg-X internship.
+
+Outside of work: I train MMA, play enough Valorant to have hit Immortal 3, and I'm slowly learning guitar, currently stuck on the Enter Sandman intro like everyone else who's ever picked one up.
 
 <br/>
 
