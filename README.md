@@ -53,7 +53,20 @@ A hazard-reporting map for Johannesburg's Makers Valley, built for the Engineers
 
 Led UEA's ML Society and organised hackathons through uni; did canoeing and mountaineering with the societies there too. Also led a 4-person team to 4th out of 20+ at UEA Climate Hack, three hours ahead of the deadline. Now freelancing dev work for small businesses alongside the Reg-X internship.
 
-Outside of work: I train MMA, play enough Valorant to have hit Immortal 3, and I'm slowly learning guitar, currently stuck on the Enter Sandman intro like everyone else who's ever picked one up.
+I'm currently training MMA, I'm also learning guitar (currently stuck on Enter Sandman), and I'm hardstuck Immortal 3 in Valorant.
+
+<table>
+<tr>
+<td align="center" width="50%">
+<img src="https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/86/a2/de/86a2dee2-78ee-071a-069a-4889a85ab450/075679566751.jpg/300x300bb.jpg" width="110" /><br/>
+<sub>on repeat: <b>Tokyo</b> — Niko Rubio</sub>
+</td>
+<td align="center" width="50%">
+<img src="https://covers.openlibrary.org/b/id/12735651-M.jpg" width="80" /><br/>
+<sub>reading: <b>Bad Blood</b> — John Carreyrou</sub>
+</td>
+</tr>
+</table>
 
 <br/>
 
