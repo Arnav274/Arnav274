@@ -1,9 +1,5 @@
 # Arnav Pawar
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&pause=1400&color=A78BFA&vCenter=true&width=650&height=30&lines=I+write+specs%2C+then+I'm+usually+the+one+who+builds+from+them.;CS+grad%2C+University+of+East+Anglia.;Currently%3A+shipping+an+AI+ticketing+platform+I+speced%2C+live+at+a+fintech+client." alt="Typing SVG" />
-</a>
-
 What I actually like is being in the middle of a problem: sitting with someone who has a vague idea, turning it into something buildable, then making sure it gets built. At Reg-X Innovations that meant writing the requirements and architecture spec for a fintech client's AI ticketing platform, then staying on to help build it. Outside of that: an EV charging app that ranks stations using real scheduling algorithms, an object detector that runs entirely in the browser, a hazard-reporting map for a township that didn't have one.
 
 BSc Computer Science (2:1), University of East Anglia.
@@ -12,17 +8,22 @@ BSc Computer Science (2:1), University of East Anglia.
 
 ## Stack
 
-<img src="https://skillicons.dev/icons?i=py,fastapi,react,nextjs,ts,js,postgres,docker,aws,git,github,tailwind,html,css&theme=dark" />
+<img src="https://skillicons.dev/icons?i=py,fastapi,ts,react,nextjs,postgres,docker,tailwind&theme=dark" />
 
 <br/>
 <br/>
 
 ## Projects
 
-### [EV Charging Reservation System](https://github.com/Arnav274/EV-final-charging-reservation-system)
-`FastAPI` `PostgreSQL` `React` `Leaflet`
+### [ev-charger-scheduling](https://github.com/Arnav274/ev-charger-scheduling)
+`FastAPI` `PostgreSQL` `OSRM` `React` `Leaflet`
 
-Ranks London's EV chargers the way a driver actually decides, not just by distance: wait time, price, and remaining range factored in too. Benchmarked six scheduling approaches against each other, including Dijkstra's algorithm and an Erlang-C queueing model, to see which produced recommendations that actually held up rather than the one with the fanciest name. Live station data from OpenChargeMap, containerised across four services, tested with pytest.
+Ranks London's EV chargers the way a driver actually decides, not just by distance: wait time, price, and remaining range factored in too. Benchmarked six scheduling approaches against each other, including Dijkstra's algorithm and an Erlang-C queueing model, to see which produced recommendations that actually held up rather than the one with the fanciest name. The interesting result was that Dijkstra came last, because better routing sends everyone to the same chargers and they queue. Live station data from OpenChargeMap, containerised across four services, tested with pytest.
+
+### [ticket-triage-widget](https://github.com/Arnav274/ticket-triage-widget)
+`TypeScript` `Express` `PostgreSQL` `React`
+
+An embeddable widget that asks an LLM to suggest a ticket's severity, then stores that suggestion separately from whatever the user actually picked, so the override rate stays measurable instead of disappearing. Degrades to a plain dropdown when the provider is slow or fails. Comes with a written security review covering what it does and does not do, including the gaps.
 
 ### [webai-smart-retail](https://github.com/Arnav274/webai-smart-retail) · [live demo](https://smartretailwebai.netlify.app/)
 `TensorFlow.js` `COCO-SSD`
@@ -41,14 +42,6 @@ A hazard-reporting map for Johannesburg's Makers Valley, built for the Engineers
 
 <br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Arnav274/Arnav274/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Arnav274/Arnav274/output/github-contribution-grid-snake.svg" />
-  <img alt="a snake eating my contribution graph" src="https://raw.githubusercontent.com/Arnav274/Arnav274/output/github-contribution-grid-snake.svg" width="100%"/>
-</picture>
-
-<br/>
-
 ## Right now
 
 Led UEA's ML Society and organised hackathons through uni; did canoeing and mountaineering with the societies there too. Also led a 4-person team to 4th out of 20+ at UEA Climate Hack, three hours ahead of the deadline. Now freelancing dev work for small businesses alongside the Reg-X internship.
@@ -58,12 +51,12 @@ I'm currently training MMA, I'm also learning guitar (currently stuck on Enter S
 <table>
 <tr>
 <td align="center" width="50%">
-<img src="https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/86/a2/de/86a2dee2-78ee-071a-069a-4889a85ab450/075679566751.jpg/300x300bb.jpg" width="110" /><br/>
-<sub>on repeat: <b>Tokyo</b> — Niko Rubio</sub>
+<img src="https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/86/a2/de/86a2dee2-78ee-071a-069a-4889a85ab450/075679566751.jpg/300x300bb.jpg" height="120" /><br/>
+<sub>on repeat: <b>Tokyo</b> by Niko Rubio</sub>
 </td>
 <td align="center" width="50%">
-<img src="https://covers.openlibrary.org/b/id/12735651-M.jpg" width="80" /><br/>
-<sub>reading: <b>Bad Blood</b> — John Carreyrou</sub>
+<img src="https://covers.openlibrary.org/b/id/12735651-M.jpg" height="120" /><br/>
+<sub>reading: <b>Bad Blood</b> by John Carreyrou</sub>
 </td>
 </tr>
 </table>
